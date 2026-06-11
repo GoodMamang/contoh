@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
 }
 
-/* Casing HP Simulasi */
 .nokia-container {
     background-color: #bdc3c7;
     padding: 25px;
@@ -22,7 +21,6 @@ body {
     border: 4px solid #7f8c8d;
 }
 
-/* Layar Hijau Jadul */
 .screen {
     background-color: #c3cda7;
     border: 6px solid #555;
@@ -45,7 +43,6 @@ canvas {
     display: block;
 }
 
-/* Desain Tombol Kontrol */
 .controls {
     margin-top: 20px;
     display: flex;

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game Jadul</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="nokia-container">
+        <div class="screen">
+            <div class="score-board">
+                <span>SKOR: <b id="score">0</b></span>
+                <span>TERTINGGI: <b id="high-score">0</b></span>
+            </div>
+            <canvas id="gameCanvas" width="300" height="300"></canvas>
+        </div>
+
+        <div class="controls">
+            <button class="btn up" onclick="changeDirection('UP')">▲</button>
+            <div class="row">
+                <button class="btn left" onclick="changeDirection('LEFT')">◀</button>
+                <button class="btn right" onclick="changeDirection('RIGHT')">▶</button>
+            </div>
+            <button class="btn down" onclick="changeDirection('DOWN')">▼</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
